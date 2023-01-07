@@ -1,0 +1,95 @@
+@import url('https://fonts.google.com/specimen/Outfit');
+*{
+    padding:0;
+    margin:0;
+}
+
+:root{
+--Very-darkblue: hsl(217, 54%, 11%);
+--Very-dark-blue: hsl(216, 50%, 16%);
+--Very-dark--blue: hsl(215, 32%, 27%);
+--White: hsl(0, 0%, 100%);
+}
+body{
+    background-color: var(--Very-darkblue);
+    height: 100%;
+    width:100%;
+    font-family: 'Outfit', sans-serif;
+    padding: 0.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:calc(100vh - 1px);
+
+}
+.container{
+    width:275px;
+    background-color: var(--Very-dark-blue);
+    color: var(--White);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+    padding:1.5rem;
+    border-radius:0.65rem;
+}
+image{
+    position: relative;
+}
+.mainimage{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.container h1{
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    font-size: 20px;
+    color:var(--White);
+}
+.description{
+    margin: 0.6rem 0 1 rem 0;
+    color: hsl(215, 51%, 70%);
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
+
+}
+.price-time{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid hsl(215, 51%, 70%);
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+.price img{
+    margin-right: 5px;
+}
+.creater{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-right: 6.5rem;
+
+}
+.pic{
+    border: 1px solid white;
+    border-radius: 50px;
+    /* margin-right: 1rem; */
+    width:30px;
+}
+.price{
+    display: flex;
+    align-items: center;
+    color:  hsl(178, 100%, 50%);
+}
+.time{
+    color: hsl(215, 51%, 70%);
+}
+span{
+    color: white;
+    margin-left: 5px;
+    }
+
+h3:hover,
+span:hover{
+color: hsl(178, 100%, 50%);
+}
